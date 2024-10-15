@@ -1,0 +1,125 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+
+header img {
+    max-width: 100px;
+}
+ 
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+ 
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+ 
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+ 
+p.red {
+    color: red;
+}
+ 
+#para {
+    color: blue;
+}
+ 
+audio, video {
+    display: block;
+    margin: 20px auto;
+}
+ 
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+ 
+table, th, td {
+    border: 1px solid black;
+}
+ 
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+ 
+form {
+    display: flex;
+    flex-direction: column;
+}
+ 
+form label, form input, form textarea {
+    margin: 5px 0;
+}
+ 
+form input[type="submit"] {
+    margin-top: 10px;
+}
+ 
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    margin: 10px 0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+ 
+.special {
+    font-weight: bold;
+}
+ 
+@media (max-width: 600px) {
+    header, footer {
+        text-align: center;
+    }
+ 
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+header {
+    background-color: yellow;
+    color: rgb(48, 23, 87);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+ 
+nav ul li a {
+    color:blueviolet;
+    text-decoration: none;
+}
+ 
+ 
